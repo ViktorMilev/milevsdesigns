@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title>
+    Milev's Designs
+</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="stylesheets/headerstyle.css">
+<link rel="stylesheet" href="stylesheets/mainstyle.css">
+<link rel="stylesheet" href="stylesheets/footerstyle.css">
+<link rel="stylesheet" href="stylesheets/carouselstyle.css">
+<link rel="stylesheet" href="stylesheets/contactformstyle.css">
+<link rel="stylesheet" href="stylesheets/slogananimstyle.css">
+<script src="scripts/script.js"></script>
+<script src="scripts/formscript.js"></script>
+<script src="scripts/tinyi18n.js"></script>
+</head>
+
+
+<body>
+<div class="head-intro">
+    <header>
+        <div id="PageLogo">
+            <img src="img/logo.png" alt="Milev's Designs Logo" width="130" onmouseover="hoverLogo(this)" onmouseout="unhoverLogo(this)">
+        </div>
+    
+        <nav>
+            <div id="NavBar">
+                <ul>
+                    <li><a href="#Carousel" id="nav1">Carousel</a></li>
+                    <li><a href="#AboutUs" id="nav2">About Us</a></li>
+                    <li><a href="#Prices" id="nav3">Prices</a></li>
+                    <li><a href="#ContactForm" id="nav4">Contact Form</a></li>
+                </ul>
+            </div>
+    
+            
+            <p class="Slogan" style="font-family: 'Lucida Console', 'Courier New', monospace; letter-spacing: 3.5pt"><em id="sloganText">You imagine, we design</em></p>
+        </nav>
+        
+        <div id="languageMenu" class="languageSelectMenu">
+            <div class="languageMenuContents">
+                <!--
+                <a href="#" id="bgOption" data-translatekey="bgOption">BG</a>
+                <p>&#124;</p>
+                <a href="#" class='active' id="enOption" data-translatekey="enOption">EN</a>
+                -->
+
+                <button onclick="tinyi18n.setLang('en')">Translate to English</button>
+		        <button onclick="tinyi18n.setLang('bg')">Преведи на български</button>
+            </div>
+        </div>
+    </header>
+    
+    <div id="mainIntro">
+        <div class="introText" id="mainIntroText">
+            <p id="introtxt1" data-translatekey="introtxt1">So you have created or you&#8217;re running a profitable business and you need to establish yourself successfully into the cyberspace? But you want your potential customers to be able to find you on the Internet easier&#44; faster and more effectively? In that case our company Milev&rsquo;s Designs&trade; is exactly what you need!</p>
+            <p id="introtxt2" data-translatekey="introtxt2">Thanks to our professionalism and years of experience&#44; you will get the desired website&#44; created entirely according to your preferences &#40;appearance&#44; functionality&#44; color models&#44; etc&#41;. You will also receive quality support and an opportunity for further developments according to the demands of your company.</p>
+        </div> 
+    </div>
+</div>
+
+
+<main>
+    <div id="Carousel">
+        <h1 style="margin-left: -80pt; margin-bottom: 50pt;" id="header1">Carousel</h1>
+
+        <p style="color: #0085AD; font-size: 15pt; margin-left: -80pt; margin-bottom: 37pt; font-style: italic;" id="MenuText1" data-translatekey="MenuText1">Feel free to take a look at some of our already finished projects:</p>
+
+        <section class="web-carousel">
+            <ol class="carousel_viewport">
+                <li id="slide1" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper">
+                        <a href="#slide10" class="carousel_prev">Go to the last slide</a>
+                        <a href="#slide2" class="carousel_next">Go to next slide</a>
+                        <div class="webpage_overlay">
+                            <div class="website-title" id="webOverlTitle1" data-translatekey="webOverlTitle1">Ucha.se</div>
+                            <p class="website-description" id="webOverlDescr1" data-translatekey="webOverlDescr1">An educational website which offers paid video tutorials on various subjects.</p>
+                        </div>
+                    </div>
+                </li>
+                <li id="slide2" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide1" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide3" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle2" data-translatekey="webOverlTitle2">Eartheasy</div>
+                        <p class="website-description" id="webOverlDescr2" data-translatekey="webOverlDescr2">Eartheasy is an online shop that sells various gardening products.</p>
+                    </div>
+                </li>
+                <li id="slide3" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide2" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide4" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle3" data-translatekey="webOverlTitle3">Wolf’s Gaming Blog</div>
+                        <p class="website-description" id="webOverlDescr3" data-translatekey="webOverlDescr3">Owned by Baden Ronnie, a Scottish gamer who shares in it everything about gaming.</p>
+                    </div>
+                </li>
+                <li id="slide4" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide3" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide5" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle4" data-translatekey="webOverlTitle4">My Fitness Pal</div>
+                        <p class="website-description" id="webOverlDescr4" data-translatekey="webOverlDescr4">My Fitness Pal is an online platform that helps people lose weight.</p>
+                    </div>
+                </li>
+                <li id="slide5" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide4" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide6" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle5" data-translatekey="webOverlTitle5">PS I’m on my way</div>
+                        <p class="website-description" id="webOverlDescr5" data-translatekey="webOverlDescr5">Owned by Trisha, a Philippines blogger who shares her adventures from travels around the globe.</p>
+                    </div>
+                </li>
+                <li id="slide6" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide5" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide7" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle6" data-translatekey="webOverlTitle6">Sincerely Jules</div>
+                        <p class="website-description" id="webOverlDescr6" data-translatekey="webOverlDescr6">A fashion blog owned by Jules who uses it to share her fashion ideas.</p>
+                    </div>
+                </li>
+                <li id="slide7" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide6" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide8" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle7" data-translatekey="webOverlTitle7">Mango</div>
+                        <p class="website-description" id="webOverlDescr7" data-translatekey="webOverlDescr7">A Bulgarian online shop for clothes and accessories.</p>
+                    </div>
+                </li>
+                <li id="slide8" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide7" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide9" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle8" data-translatekey="webOverlTitle8">ASOS</div>
+                        <p class="website-description" id="webOverlDescr8" data-translatekey="webOverlDescr8">ASOS is a British online fashion and cosmetic retailer.</p>
+                    </div>
+                </li>
+                <li id="slide9" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide8" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide10" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle9" data-translatekey="webOverlTitle9">Rainbow Plant Life</div>
+                        <p class="website-description" id="webOverlDescr9" data-translatekey="webOverlDescr9">A blog owned by Nisha who uses it to share all kinds of vegan recipes.</p>
+                    </div>
+                </li>
+                <li id="slide10" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide9" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide1" class="carousel_next">Go to first slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle10" data-translatekey="webOverlTitle10">Technopolis</div>
+                        <p class="website-description" id="webOverlDescr10" data-translatekey="webOverlDescr10">One of the most popular online shops for technology in Bulgaria.</p>
+                    </div>
+                </li>
+            </ol>
+            <aside class="carousel_nav">
+                <ol class="carousel_nav-list">
+                    <li class="carousel_nav-item">
+                        <a href="#slide1" class="carousel_nav-button">Go to slide 1</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide2" class="carousel_nav-button">Go to slide 2</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide3" class="carousel_nav-button">Go to slide 3</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide4" class="carousel_nav-button">Go to slide 4</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide5" class="carousel_nav-button">Go to slide 5</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide6" class="carousel_nav-button">Go to slide 6</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide7" class="carousel_nav-button">Go to slide 7</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide8" class="carousel_nav-button">Go to slide 8</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide9" class="carousel_nav-button">Go to slide 9</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide10" class="carousel_nav-button">Go to slide 10</a>
+                    </li>
+                </ol>
+            </aside>
+        </section>
+
+
+    </div>
+
+
+    <div id="AboutUs">
+        <div id="aboutusContent">
+            <h1 style="margin-top: 15pt; margin-left: 40pt; font-size: 33px; line-height: 90px;" id="header2" data-translatekey="header2">About Us</h1>
+
+            <div class="ServicesList">
+                <p id="MenuText2" data-translatekey="MenuText2">Milev&#39;s Designs&trade; can offer the following services&#58;</p>
+                <ul>
+                    <li id="MenuText3" data-translatekey="MenuText3">development of a website according to the customer&#8217;s choice&#59;</li>
+                    <li id="MenuText4" data-translatekey="MenuText4">development of personal blogs according to the customer&#8217;s choice&#59;</li>
+                    <li id="MenuText5" data-translatekey="MenuText5">websites with individual design&#59;</li>
+                    <li id="MenuText6" data-translatekey="MenuText6">dynamic and static websites&#59;</li>
+                    <li id="MenuText7" data-translatekey="MenuText7">technical support for websites that we&#8217;ve already developed&#59;</li>
+                    <li id="MenuText8" data-translatekey="MenuText8">mobile versions of websites for an easier access from mobile devices and tablets&#59;</li>
+                    <li id="MenuText9" data-translatekey="MenuText9">development of screen readers for the corresponding websites&#44; specially developed for people with disabilities&#59;</li>
+                    <li id="MenuText10" data-translatekey="MenuText10">an opportunity for printing the website&#8217;s content on paper through the use of a printer.</li>
+                </ul>
+            </div>
+        
+              <div class="TwoTextBoxes">
+                  <p id="MenuText11" data-translatekey="MenuText11">Milev&#39;s Designs&trade; is an IT company that deals with website development and support. It was founded in August&#44; 2010 in the city of Sofia&#44; Bulgaria. Our team consists of: Viktor Milev <i>&#40;CEO; chief web designer&#41;</i>&#44; Nataliya Yasenova <i>&#40;&#39;Websites Development&#39;&#41;</i>&#44; Ivan Rosenov <i>&#40;&#39;IT support&#39;&#41;</i>&#44; Svetlana Kalinova <i>&#40;&#39;Mobile websites and applications&#39;&#41;</i>&#44; Ivana Trifonova <i>&#40;&#39;Development of screen readers&#39;&#41;</i>&#44; Yasen Nedelchev <i>&#40;Customer Relationship Manager&#41;</i>&#44; etc. We have more than 30 IT specialists who will develop a website <i>&#40;or any other IT service&#41;</i> based on your ideas. If you have difficulty with choosing&#44; our specialists will be always ready to offer you professional ideas for your convenience.</p>
+            
+                  <p id="MenuText12" data-translatekey="MenuText12">We offer website developments based on the customer&#8217;s preferences. We help both start-ups and big successful companies by developing a website that will fit with their demands and preferences. Except for developing websites&#44; we offer technical support as well. And we also offer an opportunity for different versions for websites – mobile versions and screen readers.</p>
+              </div>
+        </div>        
+    </div>
+
+
+    <div id="Prices">
+        <h1 style="line-height: 0; margin-bottom: 55pt;" id="header3">Prices</h1>
+
+        <div id="PricesContent">
+            <div class="priceText">
+                <p id="Price1" data-translatekey="Price1">Development of a standard website with 5 pages content&#58; <i>250 lv. &#47; 128&#44;15 &euro;</i></p>
+                <p id="Price2" data-translatekey="Price2">Development of a standard website with 10 pages content&#58; <i>390 lv. &#47; 199&#44;92 &euro;</i></p>
+                <p id="Price3" data-translatekey="Price3">Development of a standard website with 15 pages content&#58; <i>450 lv. &#47; 230&#44;68 &euro;</i></p>    
+                <p id="Price4" data-translatekey="Price4">Development of a standard website with 20 pages content&#58; <i>590 lv. &#47; 302&#44;44 &euro;</i></p>   
+                <p id="Price5" data-translatekey="Price5">Development of a business website with unlimited amount of pages&#58; <i>700 lv. &#47; 358&#44;83 &euro;</i></p>    
+                <p id="Price6" data-translatekey="Price6">Development of a standard personal blog&#58; <i>430 lv. &#47; 220&#44;42 &euro;</i></p>    
+                <p id="Price7" data-translatekey="Price7">Development of a professional blog for business services&#58; <i>760 lv. &#47; 389&#44;59 &euro;</i></p>    
+                <p id="Price8" data-translatekey="Price8">Development of an online shop&#58; <i>750 lv. &#47; 384&#44;46 &euro;</i></p>    
+                <p id="Price9" data-translatekey="Price9">Development of a screen reader for a website&#58; <i>300 lv. &#47; 153&#44;78 &euro;</i></p>    
+                <p id="Price10" data-translatekey="Price10">Development of a mobile version of a website, made for smartphones&#58; <i>450 lv. &#47; 230&#44;68 &euro;</i></p>    
+                <p id="Price11" data-translatekey="Price11">Development of a tablet version of a website&#58; <i>600 lv. &#47; 307&#44;57 &euro;</i></p>    
+                <p id="Price12" data-translatekey="Price12">Development of a printable version of a website&#58; <i>750 lv. &#47; 384&#44;46 &euro;</i></p>    
+                <p id="Price13" data-translatekey="Price13">IT services completely based on a customer&#8217;s project of choice&#58; <i>negotiable</i></p>    
+                <p id="Price14" data-translatekey="Price14">Technical website support &#40;5 hours per day&#41;&#58; <i>350 lv. &#47; 179&#44;42 &euro;</i></p>    
+                <p id="Price15" data-translatekey="Price15">Technical website support &#40;12 hours per day&#41;&#58; <i>500 lv. &#47; 256&#44;31 &euro;</i></p>    
+                <p id="Price16" data-translatekey="Price16">Technical website support &#40;18 hours per day&#41;&#58; <i>800 lv. &#47; 410&#44;09 &euro;</i></p>
+            </div>
+            
+            <div class="priceImages">
+                <img src="img/pic1.jpg" alt="Website Development" width="275" onmouseover="priceImageReveal(this)" onmouseout="priceImageTransparent(this)">
+                <img src="img/pic2.jpg" alt="Personal Blogs" width="275" onmouseover="priceImageReveal(this)" onmouseout="priceImageTransparent(this)">
+                <img src="img/pic3.jpg" alt="Online Shops" width="275" onmouseover="priceImageReveal(this)" onmouseout="priceImageTransparent(this)">
+                <img src="img/pic4.jpg" alt="Screen Readers" width="275" onmouseover="priceImageReveal(this)" onmouseout="priceImageTransparent(this)">
+                <img src="img/pic5.jpg" alt="Mobile and Tablet Versions" width="275" onmouseover="priceImageReveal(this)" onmouseout="priceImageTransparent(this)">
+                <img src="img/pic6.jpg" alt="IT Support" width="275" onmouseover="priceImageReveal(this)" onmouseout="priceImageTransparent(this)">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="ContactForm">
+        <h1 style="color: #fff; margin-top: 15pt; margin-left: 40pt; margin-bottom: 50pt; font-size: 33px; line-height: 90px;" id="header4" data-translatekey="header4">Contact Form</h1>
+
+        <div class="contactForm" style="background-image: url('img/bg4_transparent.jpg');;">
+            <form name="formContacts" action="IT_Website_Company_Form-Result-Page.html" method="post" target="_blank" onsubmit="return formValidation()"> 
+                    <div class="FormColumn1">
+                        <label for="firstName" id="formLabel1" data-translatekey="formLabel1">First name:</label>
+                        <input type="text" id="firstName" name="fname" placeholder="Please enter your first name." minlength="3" required>
+                
+                        <label for="lastName" id="formLabel2" data-translatekey="formLabel2">Surname:</label>
+                        <input type="text" id="lastName" name="lname" placeholder="Please enter your last name." minlength="6" required>                
+                
+                        <label for="phoneNum" id="formLabel3" data-translatekey="formLabel3">Phone number:</label>
+                        <input type="text" id="phoneNum" name="phone" placeholder="Please enter a phone number." minlength="10" maxlength="15" required>
+                
+                        <label for="myemail" id="formLabel4" data-translatekey="formLabel4">Email:</label>
+                        <input type="email" id="myemail" name="email" placeholder="Please enter a contact email.">
+                
+                        <label for="mymessage" id="formLabel5" data-translatekey="formLabel5">Message:</label>
+                        <textarea id="mymessage" name="message" placeholder="Please enter your questions here." rows="6" cols="70"></textarea>
+                    </div>
+                    
+                    <div class="FormColumn2">
+                        <input type="checkbox" id="terms-cond" name="terms">
+                        <label for="terms-cond" id="formLabel6" data-translatekey="formLabel6">By clicking the &#8217;Submit&#8217; button, I allow my personal data being processed.</label>
+                    </div>
+                    
+                    <input type="submit" value="Submit" id="formSubmitButton" style="margin-left: 44pt;" onclick=" return phoneNumCheck(document.formContacts.phone)">
+            </form>
+        </div>
+    </div>
+</main>
+
+
+<footer>
+    <div id="allContactInfo">
+        <div class="contacts1">
+            <p id="contactsParAdr1" data-translatekey="contactsParAdr1">Bulgaria&#44; Sofia&#44; str. &#39;Bylgarska Morava&#39;</p>
+            <p id="contactsParAdr2" data-translatekey="contactsParAdr2">&#8470;56 1303&#44; District &#39;Vyzrazhdane&#39;</p>
+            <br>
+            <p id="contactsPhNum1" data-translatekey="contactsPhNum1">&#43;359 88 274 3089 &#40;Mobile Number&#41;</p>
+            <p id="contactsPhNum2" data-translatekey="contactsPhNum2">&#43;359 71 845 3240 &#40;Work Number&#41;</p>
+            <p id="contactsPhNum3" data-translatekey="contactsPhNum3">&#43;359 94 646 6646 &#40;Technical support&#41;</p>
+        </div>
+
+        <div class="contacts2" style="display: flex; flex-direction: column; justify-content: center;">
+            <p>milevsdesigns&#64;yahoo.com</p>
+            <p> milevsdesigns&#64;gmail.com</p>
+            <p>designs&#95;milev&#64;abv.bg</p>
+            <p>designs&#95;milev&#64;yahoo.com</p>
+        </div>
+
+        <div class="contacts3">
+                <p><b id="contactsFacebookText" data-translatekey="contactsFacebookText">Facebook&#58;</b>  <em>Milev&#39;s Designs</em></p>
+                <p><b id="contactsInstagramText" data-translatekey="contactsInstagramText">Instagram&#58;</b>  <em>&#64;milev&#95;designs</em></p>
+                <p><b id="contactsTwitterText" data-translatekey="contactsTwitterText">Twitter&#58;</b>  <em>&#64;MilevsDesigns</em></p>
+
+            <span class="SocialIcons">
+                <a href="https://www.facebook.com/" target="_blank" class="FB-Icon">
+                    <img onmouseout="restoreIcon1(this)" onmouseover="changeIcon1(this)" src="img/fb-icon.png" class="fb-orig" alt="Facebook Contact" width="75">
+                </a>
+                
+                <a href="https://www.instagram.com/" target="_blank" class="IG-Icon">
+                    <img onmouseout="restoreIcon2(this)" onmouseover="changeIcon2(this)" src="img/ig-icon.png" class="ig-orig" alt="Instagram Contact" width="77">
+                </a>
+        
+                <a href="https://twitter.com/?lang=bg"  target="_blank" class="TW-Icon">
+                    <img onmouseout="restoreIcon3(this)" onmouseover="changeIcon3(this)" src="img/twt-icon.png" class="twt-orig" alt="Twitter Contact" width="78">
+                </a>
+            </span>
+        </div>  
+    </div>
+
+    <div class="copyrights"><p id="copyrightText" data-translatekey="copyrightText">Copyright &copy; 2010 &#8211; 2021 Milev&#39;s Designs. All rights reserved</p></div>
+
+    <img id="scrollToTopButton" src="img/back-to-top-button.png" alt="Back To Top Button" width="57" onmouseover="changeScrollButton(this)" onmouseout="restoreScrollButton(this)" onclick="scrollToTop()">
+</footer>
+
+<script> 
+    tinyi18n.loadTranslations('translations.json');
+</script>
+</body>
+
+</html>
