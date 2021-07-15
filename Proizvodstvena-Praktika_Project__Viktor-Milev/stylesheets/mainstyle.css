@@ -1,0 +1,135 @@
+    #mainIntro
+    {
+        font-weight: bolder;
+        color: #fff;
+        text-align: center;
+        font-size: 15pt;
+        text-shadow: #002B38 2px 1px;
+        padding: 30pt;
+        font-style: italic;
+        font-variant: small-caps;
+    }
+    
+   .introText
+   {
+       background-image: url("../img/bg2-transparent-v3.png");
+       /*box-shadow: 15px 15px 30px 0 white inset, -25px -25px 50px 0 white inset; */
+       background-size: cover;
+       padding: 20px;
+       margin: -40px;
+
+   }
+
+    #AboutUs
+    {
+        background-image: url("../img/bg5.jpg");    
+        text-shadow: 1px 1px 2px black, 2px 1px 4px #AD5F11;
+        color: #fff;
+        font-weight: bold;
+        letter-spacing: 1pt;
+        line-height: 30pt;
+        font-size: 13pt;
+        word-spacing: 1pt;
+    }
+
+    #AboutUs h1
+    {
+        color:#fff;
+        text-shadow: 1px 1px 2px black, 2px 1px 4px #AD5F11;
+    }
+
+    #aboutusContent
+    {
+        background-image: linear-gradient(rgb(173, 95, 17, 0.9), rgb(250, 152, 51, 0.9));
+    }
+
+    #AboutUs h1:hover
+    {
+        color:#AD5F11;
+        text-shadow: 1px 1px 2px black, 2px 1px 4px #8d4c0c;
+    }
+
+    #AboutUs ul li
+    {
+        list-style-type: square;
+        list-style-position: inside;
+    }
+    
+    .TwoTextBoxes
+    {
+        display: flex;
+        margin: 5pt;
+        margin-top: 40pt;
+        margin-bottom: 40pt;
+    }
+
+    .TwoTextBoxes p
+    {
+        text-indent: 8pt;
+        float: right;
+        width: 50%;
+        line-height: 20pt;
+        margin-top: 40pt;
+        margin-bottom: 40pt;
+    }
+   
+    .ServicesList
+    {
+        text-align: center;
+        line-height: 30pt;
+        font-size: 13pt;
+        word-spacing: 1pt;
+    }
+
+    #Carousel
+    {
+        background-image: url("../img/bg4.jpg");
+        background-size: cover;
+    }
+
+    #PricesContent
+    {
+        background-image: url("../img/bg4.jpg");
+        background-size: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 25pt;
+    }
+
+    .priceText
+    {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .priceText p
+    {
+        line-height: 34pt;
+        text-indent: 30pt;
+        margin-top: 30pt;
+        color: #fff;
+        text-shadow: 1px 1px 3px #000, 5px 4px 6px #32CBFA, 2px 3px 10px #fff;
+        font-size: 13pt;
+    }
+
+    .priceImages
+    {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+    }
+
+    .priceImages img
+    {
+        vertical-align: baseline;
+        height: auto;
+        border-radius: 12%;
+        border: 5px dotted #32CBFA;
+        margin-top: 15pt;
+        opacity: 0.6;
+    }
+
+    #ContactForm
+    {
+        background-image: url("../img/bg3.jpg");
+    }
