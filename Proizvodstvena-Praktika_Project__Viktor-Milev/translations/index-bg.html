@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title>
+    Milev's Designs
+</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../stylesheets/headerstyle.css">
+<link rel="stylesheet" href="../stylesheets/mainstyle.css">
+<link rel="stylesheet" href="../stylesheets/footerstyle.css">
+<link rel="stylesheet" href="../stylesheets/carouselstyle.css">
+<link rel="stylesheet" href="../stylesheets/contactformstyle.css">
+<link rel="stylesheet" href="../stylesheets/slogananimstyle.css">
+<script src="../scripts/script-bg.js"></script>
+<script src="../scripts/formscript.js"></script>
+<script src="../scripts/tinyi18n.js"></script>
+</head>
+
+
+<body>
+<div class="head-intro">
+    <header>
+        <div id="PageLogo">
+            <img src="../img/logo.png" alt="Milev's Designs Logo" width="130" onmouseover="hoverLogo(this)" onmouseout="unhoverLogo(this)">
+        </div>
+    
+        <nav>
+            <div id="NavBar">
+                <ul>
+                    <li><a href="#Carousel" id="nav1">Портфолио</a></li>
+                    <li><a href="#AboutUs" id="nav2">За нас</a></li>
+                    <li><a href="#Prices" id="nav3">Цени</a></li>
+                    <li><a href="#ContactForm" id="nav4">Свържете с нас</a></li>
+                </ul>
+            </div>
+    
+            
+            <p class="Slogan" style="font-family: 'Lucida Console', 'Courier New', monospace; letter-spacing: 3.5pt; left: 370pt;"><em id="sloganText">Вие си го представяте, ние го проектираме</em></p>
+        </nav>
+        
+        <div id="languageMenu" class="languageSelectMenu">
+            <div class="languageMenuContents">
+                <!--
+                <a href="#" id="bgOption" data-translatekey="bgOption">BG</a>
+                <p>&#124;</p>
+                <a href="#" class='active' id="enOption" data-translatekey="enOption">EN</a>
+                -->
+
+                <button onclick="tinyi18n.setLang('bg')"><a href="index-bg.html">Преведи на български</a></button>
+                <button onclick="tinyi18n.setLang('en')"><a href="../index.html">Translate to English</a></button>
+            </div>
+        </div>
+    </header>
+    
+    <div id="mainIntro">
+        <div class="introText" id="mainIntroText">
+            <p id="introtxt1" data-translatekey="introtxt1">Създали сте или ръководите печеливш бизнес и ви е нужно средство за да се позиционирате успешно във виртуалното пространство? Искате потенциалните клиенти да ви откриват по-лесно, по-бързо и по-ефективно в Интернет? Тогава нашата компания Milev&rsquo;s Designs&trade; е точно това, което ви трябва!</p>
+            <p id="introtxt2" data-translatekey="introtxt2">Благодарение на нашия професионализъм и дългогодишен опит, вие ще получите мечтания уебсайт, създаден изцяло според вашите предпочитания (изглед, функционалности, цветови модели и други). Ще получите и качествена поддръжка и възможност за последващи разработки съобразно нуждите на вашата компания.</p>
+        </div> 
+    </div>
+</div>
+
+
+<main>
+    <div id="Carousel">
+        <h1 style="margin-left: -80pt; margin-bottom: 50pt;" id="header1">Портфолио</h1>
+
+        <p style="color: #0085AD; font-size: 15pt; margin-left: -80pt; margin-bottom: 37pt; font-style: italic;" id="MenuText1" data-translatekey="MenuText1">Не забравяйте да разгледате някои от наши вече завършени проекти:</p>
+
+        <section class="web-carousel">
+            <ol class="carousel_viewport">
+                <li id="slide1" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper">
+                        <a href="#slide10" class="carousel_prev">Go to the last slide</a>
+                        <a href="#slide2" class="carousel_next">Go to next slide</a>
+                        <div class="webpage_overlay">
+                            <div class="website-title" id="webOverlTitle1" data-translatekey="webOverlTitle1">Уча.се</div>
+                            <p class="website-description" id="webOverlDescr1" data-translatekey="webOverlDescr1">Образователен уебсайт, който предлага платени видеоуроци по всякакви предмети.</p>
+                        </div>
+                    </div>
+                </li>
+                <li id="slide2" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide1" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide3" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle2" data-translatekey="webOverlTitle2">Eartheasy</div>
+                        <p class="website-description" id="webOverlDescr2" data-translatekey="webOverlDescr2">Eartheasy е онлайн магазин, който продава всякакви градинарски стоки.</p>
+                    </div>
+                </li>
+                <li id="slide3" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide2" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide4" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle3" data-translatekey="webOverlTitle3">Wolf’s Gaming Blog</div>
+                        <p class="website-description" id="webOverlDescr3" data-translatekey="webOverlDescr3">Собственост на Бейдън Рони, шотландски геймър, който споделя всичко за видео игрите в него.</p>
+                    </div>
+                </li>
+                <li id="slide4" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide3" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide5" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle4" data-translatekey="webOverlTitle4">My Fitness Pal</div>
+                        <p class="website-description" id="webOverlDescr4" data-translatekey="webOverlDescr4">My Fitness Pal е онлайн платформа, която помага на хората да отслабнат.</p>
+                    </div>
+                </li>
+                <li id="slide5" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide4" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide6" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle5" data-translatekey="webOverlTitle5">PS I’m on my way</div>
+                        <p class="website-description" id="webOverlDescr5" data-translatekey="webOverlDescr5">Собственост на Триша, блогърка от Филипините, която споделя за приключенията си от целия свят.</p>
+                    </div>
+                </li>
+                <li id="slide6" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide5" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide7" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle6" data-translatekey="webOverlTitle6">Sincerely Jules</div>
+                        <p class="website-description" id="webOverlDescr6" data-translatekey="webOverlDescr6">Блог за мода, собственост на Джулс, която го използва за да споделя модните си идеи.</p>
+                    </div>
+                </li>
+                <li id="slide7" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide6" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide8" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle7" data-translatekey="webOverlTitle7">Mango</div>
+                        <p class="website-description" id="webOverlDescr7" data-translatekey="webOverlDescr7">Български онлайн магазин за дрехи и аксесоари.</p>
+                    </div>
+                </li>
+                <li id="slide8" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide7" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide9" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle8" data-translatekey="webOverlTitle8">ASOS</div>
+                        <p class="website-description" id="webOverlDescr8" data-translatekey="webOverlDescr8">ASOS е британски онлайн търговец на дрехи и козметика.</p>
+                    </div>
+                </li>
+                <li id="slide9" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide8" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide10" class="carousel_next">Go to next slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle9" data-translatekey="webOverlTitle9">Rainbow Plant Life</div>
+                        <p class="website-description" id="webOverlDescr9" data-translatekey="webOverlDescr9">Блог, собственост на Ниша, в който тя споделя всякакви видове веган рецепти.</p>
+                    </div>
+                </li>
+                <li id="slide10" tabindex="0" class="carousel_slide">
+                    <div class="carousel_snapper"></div>
+                    <a href="#slide9" class="carousel_prev">Go to previous slide</a>
+                    <a href="#slide1" class="carousel_next">Go to first slide</a> 
+                    <div class="webpage_overlay">
+                        <div class="website-title" id="webOverlTitle10" data-translatekey="webOverlTitle10">Технополис</div>
+                        <p class="website-description" id="webOverlDescr10" data-translatekey="webOverlDescr10">Един от най-популярните онлайн магазини за техника в България.</p>
+                    </div>
+                </li>
+            </ol>
+            <aside class="carousel_nav">
+                <ol class="carousel_nav-list">
+                    <li class="carousel_nav-item">
+                        <a href="#slide1" class="carousel_nav-button">Go to slide 1</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide2" class="carousel_nav-button">Go to slide 2</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide3" class="carousel_nav-button">Go to slide 3</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide4" class="carousel_nav-button">Go to slide 4</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide5" class="carousel_nav-button">Go to slide 5</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide6" class="carousel_nav-button">Go to slide 6</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide7" class="carousel_nav-button">Go to slide 7</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide8" class="carousel_nav-button">Go to slide 8</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide9" class="carousel_nav-button">Go to slide 9</a>
+                    </li>
+                    <li class="carousel_nav-item">
+                        <a href="#slide10" class="carousel_nav-button">Go to slide 10</a>
+                    </li>
+                </ol>
+            </aside>
+        </section>
+
+
+    </div>
+
+
+    <div id="AboutUs">
+        <div id="aboutusContent">
+            <h1 style="margin-top: 15pt; margin-left: 40pt; font-size: 33px; line-height: 90px;" id="header2" data-translatekey="header2">За нас</h1>
+
+            <div class="ServicesList">
+                <p id="MenuText2" data-translatekey="MenuText2">  Milev&rsquo;s Designs&trade; предлага следните услуги:</p>
+                <ul>
+                    <li id="MenuText3" data-translatekey="MenuText3">разработка на уебсайт по избор на клиента;</li>
+                    <li id="MenuText4" data-translatekey="MenuText4">разработка на персонални блогове по избор на клиента;</li>
+                    <li id="MenuText5" data-translatekey="MenuText5">уебсайтове с индивидуален дизайн;</li>
+                    <li id="MenuText6" data-translatekey="MenuText6">динамични и статични уебсайтове;</li>
+                    <li id="MenuText7" data-translatekey="MenuText7">техническа поддръжка на вече разработени от нас уебсайтове;</li>
+                    <li id="MenuText8" data-translatekey="MenuText8">мобилни версии на уебсайтове за по-лесен достъп от мобилни устройства и таблети;</li>
+                    <li id="MenuText9" data-translatekey="MenuText9">разработване на екранни четци за съответните уебсайтове специално за хора с увреждания;</li>
+                    <li id="MenuText10" data-translatekey="MenuText10">възможност за отпечатване на уебсайтовете на хартия чрез изполване на принтер.</li>
+                </ul>
+            </div>
+        
+              <div class="TwoTextBoxes">
+                  <p id="MenuText11" data-translatekey="MenuText11">Milev&rsquo;s Designs&trade; е ИТ компания, която се занимава с разработка и поддръжка на уебсайтове. Основана е през Август, 2010 г. в гр. София, България. Екипът ни се състои от: Виктор Милев (изпълнителен директор; главен уеб дизайнер), Наталия Ясенова ('Разработка на уебсайтове'), Иван Росенов ('ИТ поддръжка'), Светлана Калинова ('Мобилни уебсайтове и мобилни приложения'), Ивана Трифонова ('Разработка на екранни четци'), Ясен Неделчев (Мениджър връзки с клиенти) и други. Ние имаме над 30 ИТ специалисти, които ще разработят уебсайт (или всякаква друга ИТ услуга) базирани на вашите идеи. Ако имате затруднение с избора си, нашите специалисти са винаги готови да ви предложат професионални идеи за ваше улеснение.</p>
+            
+                  <p id="MenuText12" data-translatekey="MenuText12">Предлагаме разработки на уебстраници базирани на предпочитанията на клиента. Помагаме както на стартиращи фирми, така и на големи успешни компании като разработваме уебсайт, който ще съвпада с техните нужди и предпочитания. Освен разработката на уебсайтове, ние предлагаме и техническа поддръжка. Също така предлагаме и възможност за различни версии на уебсайтове – мобилни версии и екранни четци.</p>
+              </div>
+        </div>        
+    </div>
+
+
+    <div id="Prices">
+        <h1 style="line-height: 0; margin-bottom: 55pt;" id="header3">Цени</h1>
+
+        <div id="PricesContent">
+            <div class="priceText">
+                <p id="Price1" data-translatekey="Price1">Разработване на стандартен уебсайт с 5 страници съдържание: 250 <i>лв</i>.</i></p>
+                <p id="Price2" data-translatekey="Price2">Разработване на стандартен уебсайт с 10 страници съдържание: 390 <i>лв</i>.</i></p>
+                <p id="Price3" data-translatekey="Price3">Разработване на стандартен уебсайт с 15 страници съдържание: 450 <i>лв</i>.</i></p>    
+                <p id="Price4" data-translatekey="Price4">Разработване на стандартен уебсайт с 20 страници съдържание: 590 <i>лв</i>.</i></p>   
+                <p id="Price5" data-translatekey="Price5">Разработване на бизнес уебсайт с неограничен брой страници: 700 <i>лв</i>.</i></p>    
+                <p id="Price6" data-translatekey="Price6">Разработване на стандартен персонален блог (blog): 430 <i>лв</i>.</i></p>    
+                <p id="Price7" data-translatekey="Price7">Разработване на професионален блог(blog) за бизнес услуги: 760 <i>лв</i>.</i></p>    
+                <p id="Price8" data-translatekey="Price8">Разработване на онлайн магазин: 750 <i>лв</i>.</i></p>    
+                <p id="Price9" data-translatekey="Price9">Разработване на екранен четец за уебсайт: 300 <i>лв</i>.</i></p>    
+                <p id="Price10" data-translatekey="Price10">Разработване на мобилна версия на уебсайт за смартфони: 450 <i>лв</i>.</i></p>    
+                <p id="Price11" data-translatekey="Price11">Разработване на версия на уебсайт за таблети: 600 <i>лв</i>.</i></p>    
+                <p id="Price12" data-translatekey="Price12">Разработване на версия на уебсайт специализирана за отпечатване върху принтер: 750 <i>лв</i>.</i></p>    
+                <p id="Price13" data-translatekey="Price13">ИТ услуги изцяло по проект на клиента: <i>по договаряне</i>.</i></p>    
+                <p id="Price14" data-translatekey="Price14">Техническа поддръжка на уебсайт (5 часа на ден): 350 <i>лв</i>.</i></p>    
+                <p id="Price15" data-translatekey="Price15">Техническа поддръжка на уебсайт (12 часа на ден): 500 <i>лв</i>.</i></p>    
+                <p id="Price16" data-translatekey="Price16">Техническа поддръжка на уебсайт (18 часа на ден): 800 <i>лв</i>.</i></p>
+            </div>
+            
+            <div class="priceImages">
+                <img src="../img/pic1.jpg" alt="Разработка на уебсайтове" width="275" onmouseover="priceImageReveal(this)" onmouseout="priceImageTransparent(this)">
+                <img src="../img/pic2.jpg" alt="Персонални блогове" width="275" onmouseover="priceImageReveal(this)" onmouseout="priceImageTransparent(this)">
+                <img src="../img/pic3.jpg" alt="Онлайн магазини" width="275" onmouseover="priceImageReveal(this)" onmouseout="priceImageTransparent(this)">
+                <img src="../img/pic4.jpg" alt="Екранни четци" width="275" onmouseover="priceImageReveal(this)" onmouseout="priceImageTransparent(this)">
+                <img src="../img/pic5.jpg" alt="Мобилни версии и версии за таблети" width="275" onmouseover="priceImageReveal(this)" onmouseout="priceImageTransparent(this)">
+                <img src="../img/pic6.jpg" alt="ИТ поддръжка" width="275" onmouseover="priceImageReveal(this)" onmouseout="priceImageTransparent(this)">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="ContactForm">
+        <h1 style="color: #fff; margin-top: 15pt; margin-left: 40pt; margin-bottom: 50pt; font-size: 33px; line-height: 90px;" id="header4" data-translatekey="header4">Свържете с нас</h1>
+
+        <div class="contactForm" style="background-image: url('../img/bg4_transparent.jpg');;">
+            <form name="formContacts" action="index_result-page.html" method="post" target="_blank" onsubmit="return formValidation()"> 
+                    <div class="FormColumn1">
+                        <label for="firstName" id="formLabel1" data-translatekey="formLabel1">Първо име:</label>
+                        <input type="text" id="firstName" name="fname" placeholder="Моля, въведете първото си име." minlength="3" required>
+                
+                        <label for="lastName" id="formLabel2" data-translatekey="formLabel2">Фамилия:</label>
+                        <input type="text" id="lastName" name="lname" placeholder="Моля, въведете своята фамилия." minlength="6" required>                
+                
+                        <label for="phoneNum" id="formLabel3" data-translatekey="formLabel3">Телефонен номер:</label>
+                        <input type="text" id="phoneNum" name="phone" placeholder="Моля, въведете телефонен номер." minlength="10" maxlength="15" required>
+                
+                        <label for="myemail" id="formLabel4" data-translatekey="formLabel4">Имейл:</label>
+                        <input type="email" id="myemail" name="email" placeholder="Моля, въведете своя имейл за връзка.">
+                
+                        <label for="mymessage" id="formLabel5" data-translatekey="formLabel5">Съобщение/Въпрос:</label>
+                        <textarea id="mymessage" name="message" placeholder="Моля, напишете тук своите въпроси." rows="6" cols="70"></textarea>
+                    </div>
+                    
+                    <div class="FormColumn2">
+                        <input type="checkbox" id="terms-cond" name="terms">
+                        <label for="terms-cond" id="formLabel6" data-translatekey="formLabel6" style="font-size: 9.9pt;">При натискане на бутона &#8217;Изпрати&#8217;, позволявам обработването на личните ми данни.</label>
+                    </div>
+                    
+                    <input type="submit" value="Изпрати" id="formSubmitButton" style="margin-left: 44pt;" onclick=" return phoneNumCheck(document.formContacts.phone)">
+            </form>
+        </div>
+    </div>
+</main>
+
+
+<footer>
+    <div id="allContactInfo">
+        <div class="contacts1">
+            <p id="contactsParAdr1" data-translatekey="contactsParAdr1">България, София, ул. Българска морава </p>
+            <p id="contactsParAdr2" data-translatekey="contactsParAdr2">&#8470;56 1303, Район Възраждане</p>
+            <br>
+            <p id="contactsPhNum1" data-translatekey="contactsPhNum1">&#43;359 88 274 3089 &#40;Мобилен номер&#41;</p>
+            <p id="contactsPhNum2" data-translatekey="contactsPhNum2">&#43;359 71 845 3240 &#40;Служебен номер&#41;</p>
+            <p id="contactsPhNum3" data-translatekey="contactsPhNum3">&#43;359 94 646 6646 &#40;Техническа поддръжка&#41;</p>
+        </div>
+
+        <div class="contacts2" style="display: flex; flex-direction: column; justify-content: center;">
+            <p>milevsdesigns&#64;yahoo.com</p>
+            <p>milevsdesigns&#64;gmail.com</p>
+            <p>designs&#95;milev&#64;abv.bg</p>
+            <p>designs&#95;milev&#64;yahoo.com</p>
+        </div>
+
+        <div class="contacts3">
+                <p><b id="contactsFacebookText" data-translatekey="contactsFacebookText">Фейсбук&#58;</b>  <em>Milev&#39;s Designs</em></p>
+                <p><b id="contactsInstagramText" data-translatekey="contactsInstagramText">Инстаграм&#58;</b>  <em>&#64;milev&#95;designs</em></p>
+                <p><b id="contactsTwitterText" data-translatekey="contactsTwitterText">Туитър&#58;</b>  <em>&#64;MilevsDesigns</em></p>
+
+            <span class="SocialIcons">
+                <a href="https://www.facebook.com/" target="_blank" class="FB-Icon">
+                    <img onmouseout="restoreIcon1(this)" onmouseover="changeIcon1(this)" src="../img/fb-icon.png" class="fb-orig" alt="Facebook Contact" width="75">
+                </a>
+                
+                <a href="https://www.instagram.com/" target="_blank" class="IG-Icon">
+                    <img onmouseout="restoreIcon2(this)" onmouseover="changeIcon2(this)" src="../img/ig-icon.png" class="ig-orig" alt="Instagram Contact" width="77">
+                </a>
+        
+                <a href="https://twitter.com/?lang=bg"  target="_blank" class="TW-Icon">
+                    <img onmouseout="restoreIcon3(this)" onmouseover="changeIcon3(this)" src="../img/twt-icon.png" class="twt-orig" alt="Twitter Contact" width="78">
+                </a>
+            </span>
+        </div>  
+    </div>
+
+    <div class="copyrights"><p id="copyrightText" data-translatekey="copyrightText">Авторски права &copy; 2010 &#8211; 2021 Milev&#39;s Designs. Всички права запазени</p></div>
+
+    <img id="scrollToTopButton" src="../img/back-to-top-button.png" alt="Back To Top Button" width="57" onmouseover="changeScrollButton(this)" onmouseout="restoreScrollButton(this)" onclick="scrollToTop()">
+</footer>
+
+<script> 
+    tinyi18n.loadTranslations('translations.json');
+</script>
+</body>
+
+</html>

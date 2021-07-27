@@ -193,3 +193,56 @@
     text-decoration: none;
     font-weight: bolder;
 }
+
+
+
+.languageMenuContents button
+{
+    overflow: auto;
+    background-image: radial-gradient(circle, #32CBFA, #0085AD);
+    padding: 0;
+    border: #fff solid 0.7px;
+    border-width: 2pt;
+    border-radius: 5pt;
+    border-style: solid;
+    margin-right: 4.5%;
+    position: absolute;
+    top: 10pt;
+    left: -15pt;
+    width: 196px;
+    font-size: 13.5px;
+    font-weight: bold;
+    font-variant-caps: petite-caps;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;   
+}
+
+.languageMenuContents button:link
+{
+    background-color: #32CBFA;
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.languageMenuContents button:visited
+{
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.languageMenuContents button:hover
+{
+    background-image: radial-gradient(circle, #AD5F11, #FFA64D);
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.languageMenuContents button:active
+{
+    color: #cef4ff;
+    text-decoration: none;
+    font-weight: bold;
+}
