@@ -4,18 +4,33 @@
   "description": "A JSON file that contains all the important info about this project. This project is about developing a website for a company that develops websites and offers IT support.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch --mode=development",
+    "prod": "webpack --mode=prodcution"
   },
   "author": "Viktor Milev  vikdmilev@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "@tiny-i18n/react-live": "^2.0.11",
+    "autoprefixer": "^10.3.1",
     "create-index": "^2.6.0",
+    "postcss": "^8.1.0",
     "react": "^17.0.2",
     "tiny-i18n": "^2.0.4"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/ViktorMilev/milevsdesigns.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "path": "^0.12.7",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2"
   }
 }
